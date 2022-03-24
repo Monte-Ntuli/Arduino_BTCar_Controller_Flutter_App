@@ -1,0 +1,4 @@
+#Thu Mar 24 16:42:46 CAT 2022
+base.0=C\:\\Users\\User\\Downloads\\Robot_car_controller-main\\Robot_car_controller-main\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

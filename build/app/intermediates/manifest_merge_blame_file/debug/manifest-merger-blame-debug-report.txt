@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.servo_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->[:flutter_bluetooth_serial] C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\build\flutter_bluetooth_serial\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-68
+15-->[:flutter_bluetooth_serial] C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\build\flutter_bluetooth_serial\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-65
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->[:flutter_bluetooth_serial] C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\build\flutter_bluetooth_serial\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-74
+16-->[:flutter_bluetooth_serial] C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\build\flutter_bluetooth_serial\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-71
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->[:flutter_bluetooth_serial] C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\build\flutter_bluetooth_serial\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+17-->[:flutter_bluetooth_serial] C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\build\flutter_bluetooth_serial\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->[:flutter_bluetooth_serial] C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\build\flutter_bluetooth_serial\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+18-->[:flutter_bluetooth_serial] C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\build\flutter_bluetooth_serial\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
+19
+20    <application
+20-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:3:4-41:19
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.6.0] C:\Users\User\.gradle\caches\transforms-3\d118b71b31ac2018b0687bad4db3eb97\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:5:9-43
+24        android:label="servo_app" >
+24-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:4:9-34
+25        <activity
+25-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:6:9-35:20
+26            android:name="com.example.servo_app.MainActivity"
+26-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:7:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:11:13-163
+28            android:exported="true"
+28-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:8:13-36
+29            android:hardwareAccelerated="true"
+29-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:12:13-47
+30            android:launchMode="singleTop"
+30-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:9:13-43
+31            android:theme="@style/LaunchTheme"
+31-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:10:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:13:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:18:13-21:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:19:15-70
+42                android:resource="@style/NormalTheme" />
+42-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:20:15-52
+43            <!--
+44                 Displays an Android View that continues showing the launch screen
+45                 Drawable until Flutter paints its first frame, then this splash
+46                 screen fades out. A splash screen is useful to avoid any visual
+47                 gap between the end of Android's launch screen and the painting of
+48                 Flutter's first frame.
+49            -->
+50            <meta-data
+50-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:27:13-30:17
+51                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+51-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:28:15-79
+52                android:resource="@drawable/launch_background" />
+52-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:29:15-61
+53
+54            <intent-filter>
+54-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:31:13-34:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:32:17-68
+55-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:32:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:33:17-76
+57-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:33:27-74
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+64-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:38:9-40:33
+65            android:name="flutterEmbedding"
+65-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:39:13-44
+66            android:value="2" />
+66-->C:\Users\User\Downloads\Robot_car_controller-main\Robot_car_controller-main\android\app\src\main\AndroidManifest.xml:40:13-30
+67
+68        <uses-library
+68-->[androidx.window:window:1.0.0-beta04] C:\Users\User\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+69            android:name="androidx.window.extensions"
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\User\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+70            android:required="false" />
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\User\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+71        <uses-library
+71-->[androidx.window:window:1.0.0-beta04] C:\Users\User\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+72            android:name="androidx.window.sidecar"
+72-->[androidx.window:window:1.0.0-beta04] C:\Users\User\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+73            android:required="false" />
+73-->[androidx.window:window:1.0.0-beta04] C:\Users\User\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+74    </application>
+75
+76</manifest>
